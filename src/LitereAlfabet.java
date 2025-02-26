@@ -6,6 +6,8 @@ public class LitereAlfabet {
         for(int i=0;i<n;i++){
             alf[i]=c++;
         }
+        String s=new String(alf);
+
         System.out.println(alf);
     }
 }
